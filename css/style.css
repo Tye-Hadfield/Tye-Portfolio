@@ -1,160 +1,141 @@
-    
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html,
 body {
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Open Sans","PingFang SC","Microsoft YaHei","Helvetica Neue","Hiragino Sans GB","WenQuanYi Micro Hei",Arial,sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Open Sans', 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue',
+    'Hiragino Sans GB', 'WenQuanYi Micro Hei', Arial, sans-serif;
 }
 h1 {
-    font-size: 40px;
-    /* height: 10%; */
-    color: rgb(255, 255, 255);
-    font-family: 'Yeon Sung', cursive;
-    text-shadow: -3px 8px 6px rgb(255, 255, 255);
-    
-    
+  font-size: 40px;
+  /* height: 10%; */
+  color: rgb(255, 255, 255);
+  font-family: 'Yeon Sung', cursive;
+  text-shadow: -3px 8px 6px rgb(255, 255, 255);
 }
 .section-img {
-    width: 70%;
-    height: 100%;
-    
-
-} 
+  width: 70%;
+  height: 100%;
+}
 
 .adv {
-    font-size: 40px;
-    color: rgb(75, 23, 23);
-    font-family: 'Yeon Sung', cursive;
-    text-shadow: -3px 8px 6px rgb(255, 255, 255);
-
-
+  font-size: 40px;
+  color: rgb(75, 23, 23);
+  font-family: 'Yeon Sung', cursive;
+  text-shadow: -3px 8px 6px rgb(255, 255, 255);
 }
 .adv-link {
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    font-family: 'Yeon Sung', cursive;
-
-
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'Yeon Sung', cursive;
 }
 
 .text-size-up {
-    font-size: 200%;
+  font-size: 200%;
 }
 
-.add-height{
-    height: 400px;
+.add-height {
+  height: 400px;
 }
-.add-margin{
-    margin-top: 400px;
+.add-margin {
+  margin-top: 400px;
 }
-.add-margin-bottom{
-    margin-bottom: 50px;
+.add-margin-bottom {
+  margin-bottom: 50px;
 }
-.add-margin-top{
-    margin-top: 100px;
+.add-margin-top {
+  margin-top: 100px;
 }
 .logo-height {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 .about-me {
-    margin-top: 289px;
+  margin-top: 289px;
 }
-.img-sizer { 
-    height: 300px;
-    width: 300px;
+.img-sizer {
+  height: 300px;
+  width: 300px;
 }
 @keyframes move {
-0% {
+  0% {
     background-position: 0 0;
-}
-50% {
+  }
+  50% {
     background-position: 100% 0;
-}
+  }
 }
 .box {
-    border: 5px white solid;
-    background-color: rgb(0, 255, 213);
+  border: 5px white solid;
+  background-color: rgb(0, 255, 213);
 }
 
 .spacing {
-    margin: 10px;
+  margin: 10px;
 }
 
 .background {
-    background: url("../mountains-1412683.png");
-    background-size: cover;
-    position: fixed;
-    top: -20px;
-    left: -20px;
-    right: -20px;
-    bottom: -20px;
-    filter: blur(15px);
-    z-index: -1;
+  background: url('../img/mountains-1412683.png');
+  background-size: cover;
+  position: fixed;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  filter: blur(15px);
+  z-index: -1;
 }
 
-
 .mask-logo {
-    width: 300px;
-    height: 196px;
-    animation: move 45s infinite;
-    background-image: url("../mountains-1412683.png");
-    background-size: cover;
-    mask: url("../the-eiger.svg");
-    -webkit-mask:url("../the-eiger.svg");
-    -webkit-mask-size: cover;
-    mask-size: cover;
+  width: 300px;
+  height: 196px;
+  animation: move 45s infinite;
+  background-image: url('../img/mountains-1412683.png');
+  background-size: cover;
+  mask: url('../img/the-eiger.svg');
+  -webkit-mask: url('../img/the-eiger.svg');
+  -webkit-mask-size: cover;
+  mask-size: cover;
 }
 
 .tye-heading {
-    font-size: 80px;
-    height: 10%;
-    font-family: 'Lobster', cursive;
-    color: rgb(0, 0, 0);
-    text-shadow: -3px 8px 6px rgb(255, 255, 255);
+  font-size: 80px;
+  height: 10%;
+  font-family: 'Lobster', cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: -3px 8px 6px rgb(255, 255, 255);
 }
 .tye-sub-heading {
-    color: rgb(0, 0, 0);
-    text-shadow: -3px 8px 6px rgb(255, 255, 255);
-    font-family: 'Yeon Sung', cursive;
-
+  color: rgb(0, 0, 0);
+  text-shadow: -3px 8px 6px rgb(255, 255, 255);
+  font-family: 'Yeon Sung', cursive;
 }
-
 
 .color-white {
-    color: rgb(0, 0, 0);
-    text-shadow: -3px 8px 6px rgb(255, 255, 255);
-
+  color: rgb(0, 0, 0);
+  text-shadow: -3px 8px 6px rgb(255, 255, 255);
 }
 .color-white-no-shadow {
-    color: rgb(0, 0, 0);
-
+  color: rgb(0, 0, 0);
 }
 .color-white-boat {
-    color: rgb(255, 255, 255);
-
+  color: rgb(255, 255, 255);
 }
 .color-blue {
-    color: rgb(25, 13, 196);
+  color: rgb(25, 13, 196);
 }
 
 .webkit-center {
-    text-align: -webkit-center;
+  text-align: -webkit-center;
 }
-
-
-
-
-       
